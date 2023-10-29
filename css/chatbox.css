@@ -1,0 +1,92 @@
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+body {
+  background-color: #3AAFA9;
+    font-family: 'Ubuntu', sans-serif;
+  /*background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);*/
+
+  min-height: 100vh;
+}
+
+
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+
+.message-layer
+{
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+}
+
+.chat-box {
+  height: 452px;
+  overflow-y: scroll;
+  border:0px;
+}
+.messages-box{
+  height: 500px;
+  overflow-y: scroll;
+}
+.profile-box
+{
+    height: 550px;
+  overflow:hidden;
+}
+
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+input::placeholder {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.messages-box a
+{
+  cursor: pointer;
+}
+
+.message-input
+{
+  padding: 12px 10px;
+  border:0rem;
+}
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+  border:none !important;
+}
+
+.messenger-active,.messenger-active:hover
+{
+  background-color: #84D5DB;
+  color: #000;
+}
+
+.card-help
+{
+  box-shadow: 0px 0px 59px -40px rgb(0 0 0 / 75%);
+    border: 0rem !important;
+    border-radius: 0rem !important;
+}

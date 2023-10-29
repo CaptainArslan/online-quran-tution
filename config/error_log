@@ -1,0 +1,12 @@
+[23-Sep-2023 10:50:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/u4u8l3r5i1te/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u4u8l3r5i1te/public_html/config/cache.php on line 18
+[23-Sep-2023 10:51:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/u4u8l3r5i1te/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u4u8l3r5i1te/public_html/config/cache.php on line 18
+[18-Oct-2023 07:18:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/u4u8l3r5i1te/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u4u8l3r5i1te/public_html/config/cache.php on line 18

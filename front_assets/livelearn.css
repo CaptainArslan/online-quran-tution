@@ -1,0 +1,81 @@
+.p90{
+	padding-bottom: 90px;
+	padding-top: 90px;
+}
+.p30{
+	padding: 30px;
+}
+.pr10{
+	padding-right: 10px;
+}
+.mt140{
+	margin-top: 140px;
+}
+.btn-main a{
+	vertical-align: middle;
+padding:13px 55px 13px 55px;
+font-weight: 600;
+background-color: #ea5455;
+text-decoration: none;
+color: #fff;
+border-radius: 9px;
+
+}
+.container{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.left-list ul{
+list-style-type: none; 
+text-align: left;
+padding-left: 0;
+}
+.left-list a{
+	color: #ea5455
+}
+.text-left{
+	text-align: left;
+}
+.right-list hr{
+margin: 0;
+}
+.i2{
+	padding: 0;
+}
+.i3{
+padding:10px 0;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #ea5455;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #ea5455;
+    background-color: #ea5455;
+}
+
+.form-s1 label{
+	padding-left: ;
+}
+.right-reg h1{
+	color: #fff;
+
+}
+.logo{
+	width: 173px;height: auto;
+}
+.logo-2{
+
+}
+.header-col{
+margin-top: 0;
+}
+.mt0{
+	margin-top: 0;
+}
+
+.pricing-s2 .top a.btn-custom{
+	display:block;
+	width:100%;
+	padding:6px 10px;
+	background-color: #ea5455;
+}

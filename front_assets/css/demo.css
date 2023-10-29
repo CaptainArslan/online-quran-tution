@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+
+ul#buttons {
+	font: normal 12px 'Open Sans', sans-serif;
+	list-style: none;
+	text-align: center;
+	margin-top: 40px;
+}
+ul#buttons li {
+	display: inline-block;
+}
+ul#buttons li + li {
+	margin-left: 20px;
+}

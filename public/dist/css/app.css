@@ -1,0 +1,351 @@
+:root {
+  --qt-green: #007664;
+  --qt-skin: #f3eada;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+button{
+  border-radius: 0 !important;
+}
+a{
+  border-radius: 0 !important;
+}
+.footer-container a:hover{
+  color: #007664 !important;
+}
+
+.skin-background {
+  background-color: var(--qt-skin) !important;
+}
+
+.green-background {
+  background-color: var(--qt-green) !important;
+}
+
+.text-skin {
+  color: var(--qt-skin) !important;
+}
+
+.text-green {
+  color: var(--qt-green) !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.btn-footer{
+  width: auto;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.bigger-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 71px;
+  text-transform: uppercase;
+}
+
+.borderRoundClass {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+}
+
+.borderBottomClass {
+  border-bottom: 3px solid #bbbbbb !important;
+  border-radius: 0 !important;
+}
+
+.bg-hero {
+  background-image: url("../img/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#hero-courses {
+  background-image: url("../img/hero/courses.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hero-pricing {
+  background-image: url("../img/exports/Group\ 112.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-signup {
+  background-image: url("../img/hero/Group\ 108.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-login {
+  background-image: url("../img/hero/Group\ 109.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-privacy-policy {
+  background-image: url("../img/hero/Group\ 111.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-law-terms {
+  background-image: url("../img/exports/Group\ 114.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-cites {
+  background-image: url("../img/exports/Group\ 115.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-blog {
+  background-image: url("../img/exports/Group\ 107.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-testimonial {
+  background-image: url("../img/exports/Group\ 110.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#online-tajweed {
+  background-image: url("../img/exports/Frame 10.png") !important;
+}
+
+.spacer {
+  margin-bottom: 150px !important;
+}
+#quran-in-city {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.city-box > .nav-link {
+  /*background-size: cover;*/
+  background: #f3eada;
+  /*padding: 7px;*/
+  width: 100%;
+  /*text : bold;*/
+  height: 60px;
+  margin: 7px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #007664;
+  text-transform: uppercase;
+  /*font-family: Roboto;*/
+  /*font-size: 18px;*/
+  /*font-weight: 400;*/
+  /*line-height: 28px;*/
+}
+
+#talk-to-us > .container-fluid {
+  background-image: url("../img/exports/Frame 7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.retsyle {
+  background: blanchedalmond;
+  color: green;
+  border-radius: none !important;
+  border-radius: unset;
+  border: none;
+  font-size: 20px;
+}
+
+.retsyle:hover {
+  background: green;
+  color: blanchedalmond;
+  border-radius: none !important;
+  border-radius: unset;
+  border: none;
+  font-size: 20px;
+}
+
+#quran-lessons {
+  background-image: url("../img/exports/Frame 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#learn-tajweed-ul-quran {
+  background-image: url("../img/exports/Frame\ 4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.box-skin {
+  background-color: var(--qt-skin);
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 5px solid var(--qt-skin) !important;
+}
+
+.box-skin h5 {
+  color: var(--qt-green);
+}
+
+.box-green {
+  background-color: var(--qt-green);
+  padding: 20px;
+  border: 5px solid var(--qt-skin);
+  margin-bottom: 20px;
+  color: var(--qt-skin);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-control {
+  border-style: 0px 0px 5px 0px solid var(--qt-green);
+  box-shadow: none;
+  color: var(--qt-green);
+  font-size: 16px;
+  height: 40px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+#talk-to-us {
+  background-image: url("../img/exports/Frame 7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#faqs {
+  background-image: url("../img/exports/Frame 6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#rating-reviews {
+  background-image: url("../img/exports/Frame\ 4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.video-controls {
+  position: absolute;
+  top: 50%;
+  left: 69%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-greenish {
+  background-color: var(--qt-green);
+  opacity: 0.8;
+}
+
+.btn-greenish:hover {
+  background-color: var(--qt-green);
+  opacity: 0.8;
+}
+
+.btn-greenish i {
+  color: var(--qt-skin);
+  display: block !important;
+}
+.btn-greenish i:hover {
+  color: var(--qt-skin);
+  display: block !important;
+}
+
+.reviews_video_slider {
+  width: 75%;
+}
+
+@media screen and (max-width: 992) {
+  .video-controls {
+    position: absolute;
+    top: 68%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+  .btn-footer{
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 801px) {
+  .green-background {
+    justify-content: center;
+  }
+  .city-box > .nav-link {
+    width: 100% !important;
+  }
+  .video-controls {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .reviews_video_slider {
+    width: 100% !important;
+  }
+  .btn-footer{
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .btn-footer{
+    width: 100% !important;
+    height: 4rem !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .video-controls {
+    top: 78% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+  .city-box > .nav-link {
+    width: 96% !important;
+  }
+  .reviews_video_slider {
+    width: 100% !important;
+  }
+}
